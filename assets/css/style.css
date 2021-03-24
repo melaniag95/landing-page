@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+/*Stile header*/
+#logo-header{
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#logo-header img{
+    width: 10%;
+    min-width: 70px;
+}
+
+/*Stile contenitore principale*/
+#main-container{
+    width: 100%;
+    margin:auto;
+    position:absolute;
+    top: 100px;
+}
+
+main{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: #808080 ;
+    text-align: center;
+}
+
+/*Stile sezione banner*/
+#banner-section{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    padding:50px;
+}
+
+#banner-section h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color:#2b9bc9;
+    margin-bottom: 20px;
+}
+
+#banner-section a#button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: #ed2200;
+    border-radius: 7px;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px auto;
+}
+
+#banner-section a#button:hover{
+    opacity: 0.5;
+}
+
+
+/*Stile sezioni iniziali*/
+.site-section{
+    margin:30px;
+    padding: 50px;
+}
+
+.site-section h2, #contatti h2{
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+}
+
+.section-1 h2, .txt-img h2{
+    color:#2b9bc9;
+}
+
+.section-1 p, .txt-img p{
+    margin: 30px;
+}
+
+/*Contenitore immagine notebook*/
+#img-container img{
+    margin:50px auto;
+    border-radius: 50%;
+    width: 30%;
+    min-width: 200px;
+}
+
+/*Sezione colorata*/
+.section-2{
+    background-color: #ed2200 ;
+    color: blanchedalmond;
+}
+
+.section-2 p:last-of-type{
+    margin-top: 50px;
+}
+
+
+/*Sezioni con immagini*/
+.txt-img{
+    width: 80vw;
+    margin: 30px auto;
+    border: 1px solid rgba(161, 153, 153, 0.4);
+    border-radius: 5px;
+}
+
+.txt-img img{
+    width: 100%;
+}
+
+.txt-img h2{
+    margin-top: 20px;
+}
+
+/*Stile footer*/
+#contatti{
+    background-color: #22aacc;
+    color:  blanchedalmond;
+    padding: 40px;
+    text-align: center;
+}
+
+#contatti h2{
+    font-size: 2.5rem;
+}
+
+#contatti p{
+    font-weight: lighter;
+    margin:10px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;;
+}
+
+#contatti span{
+    color: #ed2200;
+}
+
+#contatti address{
+    font-style: normal;
+    font-size: 1.3rem;
+}
+
+address a{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+
+#contatti hr{
+    border: 0.02rem solid blanchedalmond;
+    margin:30px;
+}
